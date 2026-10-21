@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#08080b"><title>My Custom iPhone</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="outer-top"><div class="outer-status"><b>11:35 ◖</b></span><b>▮▮▮ ◉ 43</b></div><div class="outer-nav"><span>‹</span><span>×</span><strong>iPhone</strong><span>•••</span></div></div>
+<main class="device" id="device">
+  <div class="wallpaper" id="wallpaper"></div>
+  <div class="ios-status"><span id="statusTime">11:35</span><span class="sys-icons">▮▮▮　◉　▰</span></div><div class="island"></div>
+  <section class="screen lock" id="lock">
+    <div class="lock-date" id="lockDate">10月17日 星期六</div><div class="lock-time" id="lockTime">11:35</div><div class="lock-language">◎ 简体中文</div>
+    <div class="notifications" id="notifications"></div>
+    <div class="lock-controls"><button id="flashlight" aria-label="手电筒">♜</button><button data-app="camera" aria-label="相机">▣</button></div>
+    <button class="swipe" id="swipeUnlock">向上轻扫以打开</button><div class="homebar"></div>
+  </section>
+  <section class="screen passcode" id="passcode">
+    <div class="pass-title">输入密码</div><div class="dots" id="passDots"><i></i><i></i><i></i><i></i></div>
+    <div class="keypad" id="keypad"></div><div class="pass-bottom"><button id="emergency">紧急情况</button><button id="cancelPass">取消</button></div><div class="homebar"></div>
+  </section>
+  <section class="screen home" id="home">
+    <div class="home-widgets">
+      <div class="calendar-widget"><b id="weekday">星期六</b><strong id="dayNum">17</strong><div id="reminderList"></div></div>
+      <div class="weather-widget"><span>☀️</span><p id="city">首尔 ↗</p><strong id="temp">18°</strong><small id="weatherDesc">大部晴朗<br>最高21° 最低12°</small></div>
+    </div>
+    <div class="ios-app-grid" id="iosApps"></div>
+    <button class="search-pill" id="searchBtn">⌕ 搜索</button>
+    <div class="dock" id="dock"></div><div class="homebar"></div>
+  </section>
+  <section class="screen app-view" id="appView">
+    <header class="app-top"><button id="backHome">‹ 主屏幕</button><div class="mini-island"></div><span class="app-signal">▮▮▮ ◉ ▰</span></header>
+    <div class="app-body" id="appBody"></div><div class="homebar darkbar"></div>
+  </section>
+  <div class="toast" id="toast"></div>
+</main>
+<script src="config.js"></script><script src="app.js"></script>
+</body></html>
